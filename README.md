@@ -1,6 +1,6 @@
 # Hrishikesh Sivaraman — Portfolio Website
 
-A responsive static portfolio website built from the supplied CV and portrait.
+A responsive static portfolio website.
 
 ## Publish with GitHub Pages
 
@@ -12,7 +12,7 @@ A responsive static portfolio website built from the supplied CV and portrait.
 6. Choose branch `main` and folder `/ (root)`, then click **Save**.
 7. Wait a few minutes. GitHub will show the public website URL in the Pages section, usually:
    `https://YOUR-GITHUB-USERNAME.github.io/hrishikesh-portfolio/`
-8. Open that URL to test it, then send the link to Hrishikesh. You can also add it to his LinkedIn profile.
+8. Open that URL to test it.
 
 ## Updating the site
 
@@ -21,5 +21,5 @@ Edit `index.html` directly on GitHub, or edit it locally and upload the changed 
 ## Notes
 
 - The site uses no build tools, framework, or paid hosting.
-- The contact details are displayed publicly because they were present in the supplied CV. Confirm Hrishikesh is comfortable publishing them before making the repository public.
+- The contact details are displayed publicly because they were present in the supplied CV. 
 - GitHub Pages hosting is public. Do not upload confidential files such as the original CV unless intended for public access.
