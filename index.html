@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Hrishikesh Pandankulangara Sivaraman — Electrical Engineer in testing and commissioning, construction, quality, procurement and operations.">
+  <title>Hrishikesh Sivaraman | Electrical Engineer</title>
+  <style>
+    :root{--ink:#14213d;--muted:#5c677d;--accent:#e07a5f;--paper:#f7f8fb;--white:#fff;--line:#e5e8ef;--navy:#101a30}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+    a{color:inherit} .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(247,248,251,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:-.03em;text-decoration:none}.navlinks{display:flex;gap:22px;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:.92rem;color:var(--muted)}.navlinks a:hover{color:var(--accent)}
+    .hero{padding:76px 0 64px;background:linear-gradient(135deg,#101a30 0%,#1d3557 65%,#29445e 100%);color:#fff;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.4fr .8fr;align-items:center;gap:54px}.eyebrow{color:#f2b6a2;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800}
+    h1{font-size:clamp(2.4rem,5.2vw,4.5rem);line-height:1.04;letter-spacing:-.055em;margin:14px 0 20px}.hero p{max-width:680px;color:#dbe3ee;font-size:1.08rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;font-weight:750;text-decoration:none;border:1px solid transparent}.btn-primary{background:var(--accent);color:#171d2c}.btn-ghost{border-color:#6c7b91;color:#fff}.btn:hover{transform:translateY(-1px)}
+    .portrait-wrap{justify-self:center;position:relative}.portrait{width:min(300px,68vw);aspect-ratio:4/5;object-fit:cover;object-position:center 24%;border-radius:160px 160px 28px 28px;border:5px solid rgba(255,255,255,.16);box-shadow:0 22px 55px #0005}.portrait-wrap:after{content:"";position:absolute;inset:18px -16px -16px 16px;border:1px solid #f2b6a2;border-radius:160px 160px 28px 28px;z-index:0}.portrait{position:relative;z-index:1}
+    section{padding:72px 0}.section-kicker{font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:850}.section-title{font-size:clamp(1.8rem,3vw,2.6rem);letter-spacing:-.04em;line-height:1.15;margin:8px 0 22px}.intro{max-width:760px;color:var(--muted);font-size:1.06rem}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel,.card{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 8px 26px #14213d08}.panel h3,.card h3{margin:0 0 10px}.panel p,.card p{color:var(--muted);margin:0}
+    .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:#34415a;font-size:.9rem}
+    .timeline{display:grid;gap:18px;margin-top:28px}.job{display:grid;grid-template-columns:200px 1fr;gap:26px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px}.job-date{color:var(--accent);font-weight:800;font-size:.9rem}.job h3{margin:0;font-size:1.18rem}.job .company{color:var(--muted);margin:4px 0 12px}.job ul{padding-left:20px;margin:0;color:#46536b}.job li+li{margin-top:7px}
+    .feature{background:#edf1f6}.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.project{background:#fff;border-radius:22px;padding:28px;border:1px solid var(--line)}.project .num{font-size:.8rem;color:var(--accent);font-weight:850;letter-spacing:.1em}.project h3{margin:8px 0}.project p{color:var(--muted);margin:0}
+    .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.edu{padding:24px;border:1px solid var(--line);background:#fff;border-radius:20px}.edu .year{color:var(--accent);font-size:.88rem;font-weight:800}.edu h3{margin:8px 0}.edu p{color:var(--muted);margin:0}
+    .contact{background:var(--navy);color:#fff}.contact .intro{color:#d3dce8}.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start}.contact-card{border:1px solid #3a465a;border-radius:22px;padding:26px}.contact-card a{display:block;color:#fff;text-decoration:none;overflow-wrap:anywhere;margin:10px 0}.contact-card a:hover{color:#f2b6a2}.small{font-size:.9rem;color:#aebbd0}
+    footer{padding:22px 0;background:#0b1222;color:#aebbd0;font-size:.85rem}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{padding:54px 0}.hero-grid,.two-col,.feature-grid,.edu-grid,.contact-grid{grid-template-columns:1fr}.portrait-wrap{grid-row:1;justify-self:start}.portrait{width:190px}.navlinks{gap:12px}.navlinks a{font-size:.82rem}.brand{font-size:.9rem}.job{grid-template-columns:1fr;gap:8px}section{padding:54px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="#home">HS<span style="color:var(--accent)">.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Electrical Engineering · Projects · Commissioning</div>
+        <h1>Hrishikesh<br>Sivaraman</h1>
+        <p>Electrical Engineer with 4+ years of experience across testing and commissioning, construction site management, quality assurance, procurement coordination and technical operations for safety-critical electrical infrastructure.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/hrishikeshsivaraman-a01342196" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+        </div>
+      </div>
+      <div class="portrait-wrap"><img class="portrait" src="assets/hrishikesh-photo.jpeg" alt="Portrait of Hrishikesh Sivaraman"></div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap">
+      <div class="section-kicker">A little about me</div>
+      <h2 class="section-title">Structured delivery. Safety-first mindset.</h2>
+      <p class="intro">I bring hands-on experience coordinating electrical infrastructure projects from planning through testing, commissioning and handover. My work has included contractor and client coordination, technical documentation, quality checks, procurement support and schedule and cost responsibility. I completed an MSc in Engineering Management in March 2026 and am based in Berlin, Germany.</p>
+      <div class="two-col" style="margin-top:28px">
+        <div class="panel"><h3>Project delivery</h3><p>Experience leading a 4 km high-voltage cabling scope for the incoming power supply to a major LNG import plant, coordinating trades, contractors and client stakeholders through handover.</p></div>
+        <div class="panel"><h3>Working approach</h3><p>Standards-driven and organised, with a focus on installation quality, technical traceability, practical fault resolution and reliable coordination across teams.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="experience" style="background:#edf1f6">
+    <div class="wrap">
+      <div class="section-kicker">Career journey</div>
+      <h2 class="section-title">Work experience</h2>
+      <div class="timeline">
+        <article class="job">
+          <div class="job-date">Aug 2023 — Mar 2025</div>
+          <div><h3>Assistant Manager – Projects</h3><div class="company">ABM Electricals · Kochi, India</div>
+            <ul>
+              <li>Directed a 4 km high-tension cabling scope for the incoming power supply to the Indian Oil LNG import plant at Vallarpadam Container Terminal, from planning through testing, commissioning and handover.</li>
+              <li>Supervised daily site operations and ensured work complied with technical standards and work instructions.</li>
+              <li>Coordinated tendering, contractor selection and procurement of materials, plant and equipment with purchasing teams, with direct cost responsibility.</li>
+              <li>Oversaw testing, acceptance and commissioning, resolved technical faults and monitored quality requirements.</li>
+              <li>Coordinated clients, subcontractors, consulting engineers, schedules, quality standards and budgets; maintained cable plans, circuit diagrams and test reports.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="job">
+          <div class="job-date">Dec 2020 — Jul 2023</div>
+          <div><h3>Junior Electrical Engineer</h3><div class="company">ABM Electricals · Kochi, India</div>
+            <ul>
+              <li>Supported testing and commissioning of power distribution systems and checked installation quality against technical standards.</li>
+              <li>Maintained site, inspection and test records to support quality reporting and early identification of technical issues.</li>
+              <li>Prepared technical drawings and circuit diagrams in AutoCAD to align design documentation with site execution.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="expertise">
+    <div class="wrap">
+      <div class="section-kicker">What I bring</div>
+      <h2 class="section-title">Core expertise</h2>
+      <p class="intro">Technical coordination and quality-focused delivery across the electrical project lifecycle.</p>
+      <div class="skills">
+        <span class="chip">Testing & Commissioning</span><span class="chip">Electrical Infrastructure</span><span class="chip">High-Voltage Cabling</span><span class="chip">Construction & Site Management</span><span class="chip">Quality Assurance</span><span class="chip">Technical Compliance</span><span class="chip">Procurement Coordination</span><span class="chip">Contractor Management</span><span class="chip">Cost & Schedule Coordination</span><span class="chip">Fault Investigation</span><span class="chip">Technical Documentation</span><span class="chip">AutoCAD</span><span class="chip">MS Office</span>
+      </div>
+    </div>
+  </section>
+  <section class="feature">
+    <div class="wrap">
+      <div class="section-kicker">Selected project experience</div>
+      <h2 class="section-title">From planning to handover</h2>
+      <div class="feature-grid">
+        <article class="project"><div class="num">PROJECT 01</div><h3>4 km high-voltage cabling scope</h3><p>Led delivery for the incoming power supply to the Indian Oil LNG import plant at Cochin Port Trust’s Vallarpadam Container Terminal, including planning, site coordination, testing, commissioning and handover.</p></article>
+        <article class="project"><div class="num">PROJECT 02</div><h3>Inspection, testing & documentation</h3><p>Supported power distribution system commissioning, maintained inspection and test records, prepared AutoCAD drawings and circuit diagrams, and helped resolve site issues while supporting compliance and quality reporting.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="education">
+    <div class="wrap">
+      <div class="section-kicker">Learning & development</div>
+      <h2 class="section-title">Education & certifications</h2>
+      <div class="edu-grid">
+        <article class="edu"><div class="year">Apr 2025 — Mar 2026</div><h3>MSc, Engineering Management</h3><p>IU International University of Applied Sciences · Berlin, Germany</p></article>
+        <article class="edu"><div class="year">2016 — 2020</div><h3>B.Eng, Electrical and Electronics Engineering</h3><p>Hindusthan College of Engineering and Technology · India</p></article>
+        <article class="edu"><h3>Industrial Electrician</h3><p>Certification</p></article>
+        <article class="edu"><h3>Autodesk AutoCAD User Certification</h3><p>Certification</p></article>
+      </div>
+      <div class="two-col" style="margin-top:20px">
+        <div class="panel"><h3>Languages</h3><p>English — Fluent<br>German — B1, actively progressing</p></div>
+        <div class="panel"><h3>Availability</h3><p>Based in Berlin, open to relocating anywhere in Germany and travelling for work. Immediately available. Class B driving licence practical exam scheduled.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div><div class="section-kicker">Contact</div><h2 class="section-title">Let’s connect.</h2><p class="intro">For opportunities in electrical engineering, project delivery, testing and commissioning, construction, quality or technical operations, feel free to reach out.</p><a class="btn btn-primary" href="mailto:hrishiptb@gmail.com">Email Hrishikesh</a></div>
+      <div class="contact-card">
+        <h3>Contact details</h3>
+        <a href="mailto:hrishiptb@gmail.com">✉ hrishiptb@gmail.com</a>
+        <a href="tel:+4917630331151">☎ +49 176 3033 1151</a>
+        <a href="https://www.linkedin.com/in/hrishikeshsivaraman-a01342196" target="_blank" rel="noopener noreferrer">↗ LinkedIn profile</a>
+        <p class="small">Berlin, Germany · Open to relocation within Germany</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Hrishikesh Sivaraman</span><span>Electrical Engineering · Projects · Commissioning</span></div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
